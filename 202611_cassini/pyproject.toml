@@ -1,0 +1,16 @@
+[project]
+name = "cassini-notebooks"
+version = "0.1.0"
+description = "Notebooks for the 12th CASSINI Hackathon (27-29 November 2026)"
+requires-python = ">=3.10"
+dependencies = [
+    "openeo>=0.40",
+    "rasterio>=1.3",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "ipykernel>=6.29",
+    "jupyterlab>=4.0",
+]
+
+[tool.uv]
+package = false
